@@ -58,10 +58,10 @@
 - **Persistent Storage**: LocalStorage for offline capability
 
 ### 🔐 **Privacy First**
-- ✅ 100% Local Processing
-- ✅ No Cloud Storage
-- ✅ No External APIs
-- ✅ Complete User Control
+-  100% Local Processing
+-  No Cloud Storage
+-  No External APIs
+-  Complete User Control
 
 ---
 
@@ -265,12 +265,12 @@ const timeoutId = setTimeout(() => controller.abort(), 240000); // 4 minutes
 ### Issue: "Draft generation timed out"
 
 **Causes:**
-- Low system specs (office laptop)
-- Large email text
+- Low system specs (np gpu)
+- Large email text (for now as I tested it in a low spec computer)
 - First generation (model loading)
 
 **Solutions:**
-- Use shorter email text
+- Use shorter email text ( as this is the test phase only, this will be changed later)
 - Switch to faster model (Mistral → Phi)
 - Increase timeout in code
 - Wait for first generation (subsequent ones are faster)
@@ -333,34 +333,6 @@ Contributions are welcome! Here's how you can help:
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 **TL;DR**: You can use, modify, and distribute this project freely, even commercially. Just include the original license.
-
----
-
-## 🏆 Why This Project Stands Out
-
-### For Portfolio
-- ✅ Solves a **real problem** (email communication is universal)
-- ✅ **Technical depth** (AI integration, modern React, TypeScript)
-- ✅ **Privacy angle** (differentiates from cloud-based solutions)
-- ✅ **Complete MVP** (fully functional, not just a prototype)
-- ✅ **Extensible** (clear roadmap for enhancements)
-
-### For Employers
-- Shows **full-stack thinking** (even though frontend-heavy)
-- Demonstrates **product sense** (problem-solution fit)
-- Proves **technical breadth** (AI, frontend, storage)
-- Highlights **attention to detail** (error handling, UX)
-- Indicates **modern tech familiarity** (Next.js 14, Ollama)
-
----
-
-## 👤 Author
-
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
 
 ---
 
